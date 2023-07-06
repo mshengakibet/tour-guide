@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Toolbar
+            android:background="#F44336"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Tour Guide"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+
+        </Toolbar>
+
+        <TextView
+            android:id="@+id/one"
+            android:layout_marginLeft="300dp"
+            android:text="Skip"
+            android:drawableEnd="@drawable/baseline_fast_forward_24"
+            android:layout_marginTop="10dp"
+            android:textColor="#2196F3"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_marginTop="50dp"
+            android:id="@+id/animation_view"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/walk" />
+
+
+        <TextView
+            android:id="@+id/two"
+            android:layout_marginLeft="20dp"
+            android:text="Some of the best places to visit"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+        <!--First card-->
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/rio1"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"/>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="Rio"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:text="Rio de Janeiro or simply Rio, is the capital of the state of Brazil."
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--First card-->
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/nev"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"/>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="Nevada"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:text="Nevada is the 7th-most extensive, the 32nd-most populous."
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--First card-->
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/universe"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"/>
+
+                <LinearLayout
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="universal"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:text="Florida is the southeasternmost U.S. state, with the Atlantic on one side and the Gulf of Mexico on the other."
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--First card-->
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/ice"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"/>
+
+                <LinearLayout
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="iceland"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:text="Iceland’s tourism boom was recently discussed in a New York Times interview with former U.N. tourism ambassador."
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--First card-->
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/maldives"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"/>
+
+                <LinearLayout
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="Maldives"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:text="The Maldives, one of the best tourist places in the world."
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--First card-->
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/england"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"/>
+
+                <LinearLayout
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="England"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:text="London is the most visited city in Europe."
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--First card-->
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/tower"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"/>
+
+                <LinearLayout
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="Eiffeltower"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:text="The Eiffel Tower, the most-visited tourist attraction in the world."
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+
+
+</ScrollView>

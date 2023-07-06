@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TourGuideActivity">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+
+       <Toolbar
+           android:background="#F44336"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:drawableStart="@drawable/baseline_menu_24"
+               android:text="Tour Guides"
+               android:textSize="20sp"
+               android:textStyle="bold"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+
+       </Toolbar>
+
+       <!---First Tour Guide-->
+       <LinearLayout
+           android:layout_marginTop="50dp"
+           android:layout_marginLeft="30dp"
+           android:orientation="horizontal"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+           <androidx.cardview.widget.CardView
+               android:layout_marginRight="30dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+
+               <ImageView
+                   android:src="@drawable/kibett"
+                   android:layout_width="150dp"
+                   android:layout_height="200dp"/>
+
+
+           </androidx.cardview.widget.CardView>
+
+           <LinearLayout
+               android:orientation="vertical"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+               <TextView
+                   android:text="Mshenga Kibet"
+                   android:textStyle="bold"
+                   android:textSize="30sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:text="Nationality : Kenyan"
+                   android:textStyle="bold"
+                   android:textSize="15sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+               <TextView
+                   android:text="Language : Kiswahili"
+                   android:textStyle="bold"
+                   android:textSize="15sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:text="Email : japhetkibet9262@gmail.com"
+                   android:textStyle="bold"
+                   android:textSize="15sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+               <TextView
+                   android:text="Contact : +2540111291735"
+                   android:textStyle="bold"
+                   android:textSize="15sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+               <LinearLayout
+                   android:layout_marginTop="20dp"
+                   android:orientation="horizontal"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content">
+                   <ImageView
+                       android:id="@+id/call1"
+                       android:textSize="15sp"
+                       android:src="@drawable/baseline_call_24"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"/>
+
+                   <ImageView
+                       android:id="@+id/email1"
+                       android:layout_width="wrap_content"
+                       android:layout_height="match_parent"
+                       android:layout_marginStart="40dp"
+                       android:src="@drawable/baseline_email_24"
+                       android:textSize="15sp" />
+
+               </LinearLayout>
+
+           </LinearLayout>
+
+       </LinearLayout>
+
+
+       <!---Second Tour Guide-->
+       <LinearLayout
+           android:layout_marginTop="50dp"
+           android:layout_marginLeft="30dp"
+           android:orientation="horizontal"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+           <androidx.cardview.widget.CardView
+               android:layout_marginRight="30dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+
+               <ImageView
+                   android:src="@drawable/img_3"
+                   android:layout_width="150dp"
+                   android:layout_height="200dp"/>
+
+
+           </androidx.cardview.widget.CardView>
+
+           <LinearLayout
+               android:orientation="vertical"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+               <TextView
+                   android:text="Ann Mumbi"
+                   android:textStyle="bold"
+                   android:textSize="30sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:text="Nationality : Ethopian"
+                   android:textStyle="bold"
+                   android:textSize="15sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+               <TextView
+                   android:text="Language : Amharic"
+                   android:textStyle="bold"
+                   android:textSize="15sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:text="Email : annah56@gmail.com"
+                   android:textStyle="bold"
+                   android:textSize="15sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+               <TextView
+                   android:text="Contact : +25145678990"
+                   android:textStyle="bold"
+                   android:textSize="15sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+               <LinearLayout
+                   android:layout_marginTop="20dp"
+                   android:orientation="horizontal"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content">
+                   <ImageView
+                       android:id="@+id/call2"
+                       android:textSize="15sp"
+                       android:src="@drawable/baseline_call_24"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"/>
+
+                   <ImageView
+                       android:id="@+id/email2"
+                       android:textSize="15sp"
+                       android:layout_marginStart="40dp"
+                       android:src="@drawable/baseline_email_24"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"/>
+
+               </LinearLayout>
+
+           </LinearLayout>
+
+       </LinearLayout>
+
+
+       <LinearLayout
+           android:layout_marginTop="50dp"
+           android:layout_marginLeft="30dp"
+           android:orientation="horizontal"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+           <androidx.cardview.widget.CardView
+               android:layout_marginRight="30dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+
+               <ImageView
+                   android:src="@drawable/img_4"
+                   android:layout_width="150dp"
+                   android:layout_height="200dp"/>
+
+
+           </androidx.cardview.widget.CardView>
+
+           <LinearLayout
+               android:orientation="vertical"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+               <TextView
+                   android:text="Khalid Mohammed"
+                   android:textStyle="bold"
+                   android:textSize="30sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:text="Nationality : Somalian"
+                   android:textStyle="bold"
+                   android:textSize="15sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+               <TextView
+                   android:text="Language : Arabic"
+                   android:textStyle="bold"
+                   android:textSize="15sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:text="Email : Mohammed4@gmail.com"
+                   android:textStyle="bold"
+                   android:textSize="20sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+               <TextView
+                   android:text="Contact : +25234521332"
+                   android:textStyle="bold"
+                   android:textSize="15sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+               <LinearLayout
+                   android:layout_marginTop="20dp"
+                   android:orientation="horizontal"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content">
+                   <ImageView
+                       android:id="@+id/call3"
+                       android:textSize="15sp"
+                       android:src="@drawable/baseline_call_24"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"/>
+
+                   <ImageView
+                       android:id="@+id/email3"
+                       android:textSize="15sp"
+                       android:layout_marginStart="40dp"
+                       android:src="@drawable/baseline_email_24"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"/>
+
+               </LinearLayout>
+
+           </LinearLayout>
+
+       </LinearLayout>
+
+
+       <LinearLayout
+           android:layout_marginTop="50dp"
+           android:layout_marginLeft="30dp"
+           android:orientation="horizontal"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+           <androidx.cardview.widget.CardView
+               android:layout_marginRight="30dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+
+               <ImageView
+                   android:src="@drawable/img_5"
+                   android:layout_width="150dp"
+                   android:layout_height="200dp"/>
+
+
+           </androidx.cardview.widget.CardView>
+
+           <LinearLayout
+               android:orientation="vertical"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+               <TextView
+                   android:text="Alvarado Gonzalez"
+                   android:textStyle="bold"
+                   android:textSize="30sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:text="Nationality : Kenyan"
+                   android:textStyle="bold"
+                   android:textSize="15sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+               <TextView
+                   android:text="Language : Spanish"
+                   android:textStyle="bold"
+                   android:textSize="15sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:text="Email : Gonzalez34@gmail.com"
+                   android:textStyle="bold"
+                   android:textSize="20sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+               <TextView
+                   android:text="Contact : +9316539856145"
+                   android:textStyle="bold"
+                   android:textSize="15sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+               <LinearLayout
+                   android:layout_marginTop="20dp"
+                   android:orientation="horizontal"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content">
+                   <ImageView
+                       android:id="@+id/call4"
+                       android:textSize="15sp"
+                       android:src="@drawable/baseline_call_24"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"/>
+
+                   <ImageView
+                       android:id="@+id/email4"
+                       android:textSize="15sp"
+                       android:layout_marginStart="40dp"
+                       android:src="@drawable/baseline_email_24"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"/>
+
+               </LinearLayout>
+
+           </LinearLayout>
+
+       </LinearLayout>
+
+
+       <LinearLayout
+           android:layout_marginTop="50dp"
+           android:layout_marginLeft="30dp"
+           android:orientation="horizontal"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+           <androidx.cardview.widget.CardView
+               android:layout_marginRight="30dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+
+               <ImageView
+                   android:src="@drawable/louse"
+                   android:layout_width="150dp"
+                   android:layout_height="200dp"/>
+
+
+           </androidx.cardview.widget.CardView>
+
+           <LinearLayout
+               android:orientation="vertical"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+               <TextView
+                   android:text="louse coban"
+                   android:textStyle="bold"
+                   android:textSize="30sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:text="Nationality : spaniad"
+                   android:textStyle="bold"
+                   android:textSize="15sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+               <TextView
+                   android:text="Language : spanish"
+                   android:textStyle="bold"
+                   android:textSize="15sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:text="Email : Coban4@gmail.com"
+                   android:textStyle="bold"
+                   android:textSize="15sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+               <TextView
+                   android:text="Contact : +11239871356"
+                   android:textStyle="bold"
+                   android:textSize="15sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+               <LinearLayout
+                   android:layout_marginTop="20dp"
+                   android:orientation="horizontal"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content">
+                   <ImageView
+                       android:id="@+id/call5"
+                       android:textSize="15sp"
+                       android:src="@drawable/baseline_call_24"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"/>
+
+                   <ImageView
+                       android:id="@+id/email5"
+                       android:textSize="15sp"
+                       android:layout_marginStart="40dp"
+                       android:src="@drawable/baseline_email_24"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"/>
+
+               </LinearLayout>
+
+           </LinearLayout>
+
+       </LinearLayout>
+
+
+       <LinearLayout
+           android:layout_marginTop="50dp"
+           android:layout_marginLeft="30dp"
+           android:orientation="horizontal"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+           <androidx.cardview.widget.CardView
+               android:layout_marginRight="30dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+
+               <ImageView
+                   android:src="@drawable/kinyuaa"
+                   android:layout_width="150dp"
+                   android:layout_height="200dp"/>
+
+
+           </androidx.cardview.widget.CardView>
+
+           <LinearLayout
+               android:orientation="vertical"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+               <TextView
+                   android:text="Willian Brooks"
+                   android:textStyle="bold"
+                   android:textSize="30sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:text="Nationality : Sudanese"
+                   android:textStyle="bold"
+                   android:textSize="20sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+               <TextView
+                   android:text="Language : Arabic"
+                   android:textStyle="bold"
+                   android:textSize="20sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:text="Email : Willian@gmail.com"
+                   android:textStyle="bold"
+                   android:textSize="20sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+               <TextView
+                   android:text="Contact : +2495634567834"
+                   android:textStyle="bold"
+                   android:textSize="20sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+               <LinearLayout
+                   android:layout_marginTop="20dp"
+                   android:orientation="horizontal"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content">
+                   <ImageView
+                       android:id="@+id/call6"
+                       android:textSize="15sp"
+                       android:src="@drawable/baseline_call_24"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"/>
+
+                   <ImageView
+                       android:id="@+id/email6"
+                       android:textSize="15sp"
+                       android:layout_marginStart="40dp"
+                       android:src="@drawable/baseline_email_24"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"/>
+
+               </LinearLayout>
+
+           </LinearLayout>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_marginTop="50dp"
+           android:layout_marginLeft="30dp"
+           android:orientation="horizontal"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+           <androidx.cardview.widget.CardView
+               android:layout_marginRight="30dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+
+               <ImageView
+                   android:src="@drawable/kibet"
+                   android:layout_width="150dp"
+                   android:layout_height="200dp"/>
+
+
+           </androidx.cardview.widget.CardView>
+
+           <LinearLayout
+               android:orientation="vertical"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+               <TextView
+                   android:text="Dennis Kinyua"
+                   android:textStyle="bold"
+                   android:textSize="30sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:text="Nationality : Kenyan"
+                   android:textStyle="bold"
+                   android:textSize="20sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+               <TextView
+                   android:text="Language : English"
+                   android:textStyle="bold"
+                   android:textSize="20sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:text="Email : Kinyua@gmail.com"
+                   android:textStyle="bold"
+                   android:textSize="20sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+               <TextView
+                   android:text="Contact :+2540734567834"
+                   android:textStyle="bold"
+                   android:textSize="20sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+               <LinearLayout
+                   android:layout_marginTop="20dp"
+                   android:orientation="horizontal"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content">
+                   <ImageView
+                       android:id="@+id/call7"
+                       android:textSize="15sp"
+                       android:src="@drawable/baseline_call_24"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"/>
+
+                   <ImageView
+                       android:id="@+id/email7"
+                       android:textSize="15sp"
+                       android:layout_marginStart="40dp"
+                       android:src="@drawable/baseline_email_24"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"/>
+
+               </LinearLayout>
+
+           </LinearLayout>
+
+       </LinearLayout>
+
+
+   </LinearLayout>
+
+</ScrollView>
